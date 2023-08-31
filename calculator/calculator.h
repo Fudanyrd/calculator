@@ -1,9 +1,9 @@
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 
-#include "translator.h"
-#include "complex_num.h"
-#include "Expr_node.h"
+#include "..\translator\translator.h"
+#include "..\complex_num\complex_num.h"
+#include "..\Expr\Expr_node.h"
 #include <fstream>
 
 class calculator{
