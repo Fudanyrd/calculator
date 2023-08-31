@@ -8,7 +8,7 @@
 #include <cstddef>
 #include <stdexcept>
 #include <algorithm>
-#include "complex_num.h"
+#include "..\complex_num\complex_num.h"
 
 double sgn(double _X,double _Y);
 
