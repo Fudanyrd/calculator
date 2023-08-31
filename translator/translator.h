@@ -2,12 +2,12 @@
 #ifndef TRANSLATOR_H
 #define TRANSLATOR_H
 
-#include "Expr_node.h"
+#include "..\Expr\Expr_node.h"
 #include <cctype>
 #include <algorithm>
 #include <cmath>
 #include <vector>
-#include "complex_num.h"
+#include "..\complex_num\complex_num.h"
 
 using std::string;		using std::vector;
 using std::find_if; 	using std::find;
