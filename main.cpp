@@ -1,4 +1,4 @@
-#include "calculator\calculator.h"
+#include <calculator.h>
 #include <cstdlib>
 using std::cout;        using std::ofstream;
 using std::endl;
