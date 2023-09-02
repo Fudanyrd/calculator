@@ -115,4 +115,6 @@ Expr translator(string::const_iterator b,string::const_iterator e){
 			return Expr(string(b,i),translator(i,e));
 		}
 	}
+
+	return Expr(complex_num(0.0));
 }
