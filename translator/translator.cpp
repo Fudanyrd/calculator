@@ -1,4 +1,4 @@
-#include "translator.h"
+#include "include\translator.h"
 
 using std::string;		using std::vector;
 using std::find_if; 	using std::find;
