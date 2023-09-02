@@ -41,6 +41,7 @@ public:
 		if(--*_Size == 0) delete _Pointer;
 		_Pointer = rhs._Pointer;
 		_Size = rhs._Size;
+		return *this;
 	}
 	
 	Expr_node& operator*(){
