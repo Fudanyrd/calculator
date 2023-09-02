@@ -8,7 +8,7 @@ add_subdirectory(translator)
 add_subdirectory(calculator)
 
 #generate .exe
-add_executable(${PROJECT_NAME}, main.cpp)
+add_executable(${PROJECT_NAME} main.cpp)
 
 #link operation
 target_link_libraries(${PROJECT_NAME} Calculator translator Expr complex_num)
